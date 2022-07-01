@@ -50,7 +50,7 @@ public class Main {
 
     }
         for(int i=0; i<myDoubleValues.size(); i++) {
-            double value = myDoubleValues.get(i).doubleValues();
+            double value = myDoubleValues.get(i).doubleValue();
             System.out.println(i + " ---> " + value);
         }
 
